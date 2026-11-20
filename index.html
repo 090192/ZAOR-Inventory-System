@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ZAOR Inventory System: tienda y sistema de control de inventario.">
+    <title>ZAOR | Inventory System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">ZAOR<span>.</span></a>
+
+        <nav class="navigation">
+            <a href="#inicio">Inicio</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#catalogo" class="cart-link">Mi carrito <span>0</span></a>
+            <a href="admin.html" class="admin-link">Administración</a>
+        </div>
+    </header
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+              <div class="hero-content">
+    <span class="hero-tag">ESTILO · CALIDAD · EXCLUSIVIDAD</span>
+
+    <h1>Encuentra tu estilo. Hazlo único.</h1>
+
+    <p>
+        Descubre nuestra colección de prendas y accesorios
+        seleccionados para complementar tu estilo.
+    </p>
+
+    <a href="#catalogo" class="btn-primary">
+        Explorar colección
+    </a>
+</div> 
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1000"
+                    alt="Colección de moda ZAOR"
+                >
+                <div class="image-label">
+                    <span>NUEVA COLECCIÓN</span>
+                    <strong>Tu estilo comienza aquí.</strong>
+                </div>
+            </div>
+        </section>
+
+        <sectionclass="benefits"> 
+
+
+        <section class="catalog-section" id="catalogo">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">DESCUBRE ZAOR</p>
+                    <h2>Nuestra colección</h2>
+                </div>
+                <p>Encuentra tus próximas prendas favoritas.</p>
+            </div>
+
+            <div class="catalog-toolbar">
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Buscar productos..."
+                    aria-label="Buscar productos"
+                >
+
+                <select id="categoryFilter" aria-label="Filtrar por categoría">
+                    <option value="todos">Todas las categorías</option>
+                    <option value="ropa">Ropa</option>
+                    <option value="accesorios">Accesorios</option>
+                    <option value="calzado">Calzado</option>
+                </select>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <!-- Los productos se mostrarán desde JavaScript -->
+            </div>
+        </section>
+
+        <section class="about-section" id="nosotros">
+            <div>
+                <p class="eyebrow">CONOCE NUESTRA MARCA</p>
+                <h2>Más que una tienda,<br>una experiencia.</h2>
+            </div>
+            <p>
+                En ZAOR buscamos ofrecer una experiencia de compra
+                organizada, práctica y accesible, con productos
+                seleccionados para diferentes estilos y gustos.
+            </p>
+        </section>
+
+        <section class="contact-section" id="contacto">
+            <p class="eyebrow">ESTAMOS PARA AYUDARTE</p>
+            <h2>¿Tienes alguna pregunta?</h2>
+            <p>Contáctanos y con gusto te atenderemos.</p>
+            <a href="mailto:contacto@zaor.com" class="primary-button">
+                Enviar mensaje
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#inicio" class="logo">ZAOR<span>.</span></a>
+        <p>© 2026 ZAOR Inventory System. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
